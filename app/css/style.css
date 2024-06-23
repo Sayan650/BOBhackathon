@@ -7,3 +7,54 @@
 @import "additional-styles/theme.css";
 
 @import "tailwindcss/utilities";
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100%));
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+/* Glassmorphic effect with shadow */
+.glassmorphic-icon-container {
+    position: relative;
+    background-color: rgba(180, 210, 255, 0.15); /* Adjusted blueish tint */
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 12px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow for subtle shadow effect */
+  }
+  
+  .glassmorphic-icon-container:hover {
+    background-color: rgba(180, 210, 255, 0.25); /* Adjusted blueish tint on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow intensity on hover */
+  }
+  
+  .glassmorphic-card {
+    background-color: rgba(180, 210, 255, 0.15); /* Adjusted blueish tint */
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 24px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Added box-shadow transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box-shadow for subtle shadow effect */
+  }
+  
+  .glassmorphic-card:hover {
+    background-color: rgba(180, 210, 255, 0.25); /* Adjusted blueish tint on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased shadow intensity on hover */
+  }
+  

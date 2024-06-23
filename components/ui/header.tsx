@@ -28,6 +28,30 @@ export default function Header() {
             <Logo />
           </div>
 
+          {/* Mobile menu button */}
+          <ul className="flex space-x-6">
+            <li>
+              <a href="/pricing" className="text-gray-700 hover:text-blue-600">
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-gray-700 hover:text-blue-600">
+                Customers
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-gray-700 hover:text-blue-600">
+                Services
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-gray-700 hover:text-blue-600">
+                Contact
+              </a>
+            </li>
+          </ul>
+
           {/* Desktop sign in links */}
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
