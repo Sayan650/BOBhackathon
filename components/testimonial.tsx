@@ -99,7 +99,7 @@ const Testimonial = () => {
     <section className="py-12 mb-10 bg-gray-50 relative overflow-hidden">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">
-          Top startups love PersonalFinGen
+          Top comments to our notice box
         </h2>
         <div className="relative overflow-hidden">
           <div className="flex animate-scroll space-x-6">

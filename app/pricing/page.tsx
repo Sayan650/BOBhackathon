@@ -5,7 +5,7 @@ import Header from "@/components/ui/header";
 import Testimonial from "@/components/testimonial";
 import Cta from "@/components/cta";
 import Footer from "@/components/ui/footer";
-import FAQSection from "@/components/faq";
+// import FAQSection from "@/components/faq";
 
 const PricingPage = () => {
   return (
@@ -15,7 +15,7 @@ const PricingPage = () => {
       <Pricing />
       <Testimonial />
       {/* <Cta /> */}
-      <FAQSection/>
+      {/* <FAQSection/> */}
       <Footer/>
     </div>
   );

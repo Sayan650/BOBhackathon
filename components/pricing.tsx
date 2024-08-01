@@ -216,7 +216,7 @@ export default function PricingPage() {
                   {tier.description}
                 </p>
                 <p className="mt-6 flex items-baseline gap-x-1">
-                  <span
+                  {/* <span
                     className={cn(
                       tier.featured ? 'text-white dark:text-black' : 'text-black dark:text-white',
                       'text-4xl font-bold tracking-tight',
@@ -228,7 +228,7 @@ export default function PricingPage() {
                     {typeof tier.price === 'string'
                       ? tier.price
                       : tier.price[frequency.value]}
-                  </span>
+                  </span> */}
 
                   <span
                     className={cn(
