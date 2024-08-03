@@ -36,10 +36,10 @@ export default function LargeTestimonial() {
               it's become my go-to tool for every investment.”
             </p>
             <div className="text-sm font-medium text-gray-500">
-              <span className="text-gray-700">Mary Sullivan</span>{" "}
+              <span className="text-gray-700">Shankhadeep Ghosh</span>{" "}
               <span className="text-gray-400">/</span>{" "}
               <a className="text-blue-500" href="#0">
-                CTO at Microsoft
+                Ex-President
               </a>
             </div>
           </div>

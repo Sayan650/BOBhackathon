@@ -13,7 +13,7 @@ export default function HeroHome() {
       <PageIllustration />
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         {/* Hero content */}
-        <div className="pb-12 pt-32 md:pb-20 md:pt-40">
+        <div className="pb-12 pt-32 md:pb-20 md:pt-20">
           {/* Section header */}
           <div className="pb-12 text-center md:pb-16">
             <div
@@ -70,8 +70,8 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              Empower Your Marketing with <br className="max-lg:hidden" />
-              AI Technology
+              Empower Your Candidates with <br className="max-lg:hidden" />
+              Your Valuable Votes
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -82,7 +82,7 @@ export default function HeroHome() {
                 Our AI-powered platform revolutionizes marketing content generation, providing personalized and engaging materials for bank customers. Experience the future of marketing today.
               </p>
               <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]">
-                <div
+                {/* <div
                   className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center"
                   data-aos="zoom-y-out"
                   data-aos-delay={450}
@@ -104,12 +104,12 @@ export default function HeroHome() {
                   >
                     Learn More
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
           {/* Hero image */}
-          <div
+          {/* <div
             className="mx-auto max-w-3xl"
             data-aos="zoom-y-out"
             data-aos-delay={600}
@@ -145,7 +145,7 @@ export default function HeroHome() {
                 </span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

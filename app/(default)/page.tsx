@@ -31,14 +31,27 @@ const imageUrl = "https://via.placeholder.com/640x480";
 export default function Home() {
   return (
     <>
+      <Hero/>
       <Manifesto
-        candidateName="John Doe"
+        candidateName="Ankan Dutta"
         manifestoTitle="A Vision for the Future"
         points={points}
         imageUrl={imageUrl}
       />
       <ReverseManifesto
-      candidateName="John Doe"
+      candidateName="Arkarup Mitra"
+      manifestoTitle="A Vision for the Future"
+      points={points}
+      imageUrl={imageUrl}
+      />
+      <Manifesto
+        candidateName="Ankan Dutta"
+        manifestoTitle="A Vision for the Future"
+        points={points}
+        imageUrl={imageUrl}
+      />
+      <ReverseManifesto
+      candidateName="Arkarup Mitra"
       manifestoTitle="A Vision for the Future"
       points={points}
       imageUrl={imageUrl}
